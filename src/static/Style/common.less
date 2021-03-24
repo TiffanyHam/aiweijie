@@ -1,0 +1,37 @@
+@size: 36;
+
+@white: #ffffff;
+@white20: rgba(255, 255, 255, .2);
+@white38: rgba(255, 255, 255, .38);
+@white60: rgba(255, 255, 255, .60);
+@white86: rgba(255, 255, 255, .86);
+@white90: rgba(255, 255, 255, .9);
+
+@black: #000000;
+@black3: rgba(0, 0, 0, .03);
+@black20: rgba(0, 0, 0, .2);
+@black30: rgba(0, 0, 0, .3);
+@black60: rgba(0, 0, 0, .6);
+@black90: rgba(0, 0, 0, .9);
+
+@F7F7F7: #F7F7F7; // 普通模式背景色
+@262626: #262626; // 暗黑模式卡片背景色
+@007DFF: #007DFF; // 普通模式字体颜色
+@3F97E9: #3F97E9; // 暗黑模式字体颜色
+
+
+.h(@dp) {
+    height: unit(@dp/@size, rem);
+}
+.w(@dp) {
+    width: unit(@dp/@size, rem);
+}
+.padding(@t, @r, @b, @l) {
+    padding: unit(@t/@size, rem) unit(@r/@size, rem) unit(@b/@size, rem) unit(@l/@size, rem);
+}
+.margin(@t, @r, @b, @l) {
+    margin: unit(@t/@size, rem) unit(@r/@size, rem) unit(@b/@size, rem) unit(@l/@size, rem);
+}
+.fs(@dp) {
+    font-size: unit(@dp/@size, rem);
+}

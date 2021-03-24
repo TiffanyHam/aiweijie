@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>connect</title>
+		<link rel="stylesheet" href="./connect/css/common.css">
+		<link rel="stylesheet" href="./connect/css/index.css">
+		<script language="JavaScript" src="./connect/js/connect.js"></script>
+		<!-- <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+		<script>
+			eruda.init()
+		</script> -->
+	</head>
+
+	<body>
+		<div id="app">
+			<div class="connect-content">
+				<div class="connect-content__middle">
+					<img src="./connect/img/iconD.png" alt="">
+				</div>
+				<div class="progressContainer" id="progressContainer">
+					<div class="progress">
+						<span class="" id="progressValue">
+							0
+						</span>
+						<span>
+							%
+						</span>
+					</div>
+					<div class="progressDes">
+						设备绑定中...
+					</div>
+				</div>
+				<div class="alertContainer" id="alertContainer">
+					<div class="failIcon">
+						<img src="./connect/img/ic_yichang.png" />
+						<span class="failConnect">
+							连接失败
+						</span>
+					</div>
+					<div class="box">
+						<div class="detail">
+							<span class="details">
+								连接过程中,请确保:
+							</span>
+							<span style="margin-top: 8px;" class="details">
+								1.手机蓝牙是否打开
+							</span>
+							<span class="details">
+								2.设备与手机的距离小于5米
+							</span>
+							<span class="details"> 
+								3.手机网络通畅
+							</span>
+							<span class="details">
+								4.该设备未被当前账号注册
+							</span>
+						</div>
+					</div>
+					<div class="fillDiv">
+
+					</div>
+				</div>
+			</div>
+			<div class="btnContainer" id="btnContainer">
+				<div class="btn" onclick="finishDeviceActivity()">
+					重新注册
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,71 @@
+{
+    "name": "olybo",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "dev": "npm run serve"
+    },
+    "dependencies": {
+        "@google-cloud/vision": "^2.1.2",
+        "animate.css": "^4.1.1",
+        "better-scroll": "^2.0.5",
+        "core-js": "^3.6.5",
+        "echarts": "^4.9.0",
+        "eslint-config-standard": "^15.0.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.2",
+        "grpc": "^1.24.3",
+        "less": "^3.12.2",
+        "less-loader": "^7.0.2",
+        "lib-flexible": "^0.3.2",
+        "moment": "^2.29.1",
+        "postcss-plugin-px2rem": "^0.8.1",
+        "vconsole": "^3.3.4",
+        "vue": "^2.6.11",
+        "vue-i18n": "^8.21.1",
+        "vuex": "^3.6.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "file-loader": "^6.2.0",
+        "url-loader": "^4.1.1",
+        "vue-router": "^3.4.6",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {
+            "generator-star-spacing": "off",
+            "no-tabs": "off",
+            "no-unused-vars": "off",
+            "no-console": "off",
+            "no-irregular-whitespace": "off",
+            "no-debugger": "off"
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
